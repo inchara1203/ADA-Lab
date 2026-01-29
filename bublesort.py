@@ -26,5 +26,6 @@ plt.xlabel('List Size')
 plt.ylabel('Time Taken (seconds)')
 plt.title('Insertion Sort Time Complexity')
 plt.grid(True)
-plt.savefig('insertion_sort_time_complexity.png', dpi=300, bbox_inches='tight')
+plt.savefig('bubles_sort_time_complexity.png', dpi=300, bbox_inches='tight')
 plt.show()
+
