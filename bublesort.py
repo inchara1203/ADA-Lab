@@ -20,4 +20,11 @@ for i in n:
     print (l)  
     print("Time taken: ",end_time-start_time,"seconds")
   
-plt.plot(n,time_taken,marker='o')
+
+plt.plot(n_list, sort_times, marker='o')
+plt.xlabel('List Size')
+plt.ylabel('Time Taken (seconds)')
+plt.title('Insertion Sort Time Complexity')
+plt.grid(True)
+plt.savefig('insertion_sort_time_complexity.png', dpi=300, bbox_inches='tight')
+plt.show()
